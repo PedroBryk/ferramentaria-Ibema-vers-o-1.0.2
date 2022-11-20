@@ -1,0 +1,68 @@
+.formulario-uso{
+    background-color: #ffc369;
+    width: 50%;
+    height: 350px;
+    border-radius: 17px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: .6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.uso-form{
+    width: 60%;
+    height: 64px;
+    border-radius: 15px;
+    border: 2px solid #3F3A3A;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao-adicionar{
+    width: 30%;
+    height: 38px;
+    margin-top: 20px;
+    background: #3F3A3A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    font-size: 22px;
+    color: #ffc369;
+    font-weight: bold;
+    transition: .4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botao-adicionar:hover{
+    background-color: #6CCF9E;
+    color: #3F3A3A;
+}
+
+.botao-cancelar{
+    width: 30%;
+    height: 38px;
+    margin-top: 20px;
+    background: #FF7166;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    font-size: 22px;
+    color: #3F3A3A;
+    font-weight: bold;
+    transition: .4s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 8px;
+}
+
+.botao-cancelar:hover{
+    background-color: #FF4233;
+    color: #3F3A3A;
+}
+
+
+

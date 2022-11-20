@@ -1,0 +1,58 @@
+
+        @media(max-width: 1024px){
+ 
+            .ferramentaria_nav{
+               display: none;
+            }
+
+            .adicionar_uso-titulo{
+                margin-top: 0px;
+                text-align: center;
+                
+            }
+
+            .formulario-uso{
+                width: 70%;
+                height: 400px;
+               
+            }
+
+            .buttons{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .botao-adicionar, .botao-cancelar{
+                width: 100%;
+            }
+            
+            .adicionar_uso{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100vw;
+                height: auto;
+                margin-bottom: 20%;
+            
+            }
+
+            .uso-form{
+                width: 85%;
+                height: 55px;
+                font-size: 15px;
+              
+            }
+
+            .ferramentas_em_uso-titulo{
+                text-align: center;
+            }
+
+            table{
+                width: auto;
+                margin: 5px;
+                table-layout: fixed;
+
+            }
+            
+        }

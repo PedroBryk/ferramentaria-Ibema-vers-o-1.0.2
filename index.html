@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/adicionar.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/ferramentas_em_uso.css">
+    <link rel="stylesheet" href="./assets/css/ferramentas_em-uso-tabela.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="shortcut icon" href="./assets/img/ibema_top_logo.jpg" type="image/x-icon">
+    <title>Ferramentaria | Ibema</title>
+
+</head>
+<body>
+    <header class="header_ibema">
+            <nav class="ferramentaria_nav">
+                <img src="./assets/img/logo_ibema.png" alt="logo ibema" class="logo_ibema">
+                <ul class="itens">
+                    <li class="item">
+                        <a class="item-a" href="#adicionar_uso">Criar uso</a>
+                    </li>
+                    <li class="item">
+                        <a class="item-a" href="#ferramentas_em_uso">Ferramentas em uso</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id="adicionar_uso" class="adicionar_uso">
+            <div class="adicionar_uso-titulo">
+                <h2>Ferramentaria <span class="destaque">Ibema</span></h2>
+            </div>
+            <div class="adicionar_uso-titulo-2">
+                <h2>Adicionar Uso</h2>
+            </div>
+            <img src="./assets/img/Adicionar.png" alt="Adicionar" class="adicionar_uso-img">
+
+            <form id="form-adiciona" class="formulario-uso">
+                
+                <input id="nome" name="nome" class="ferramenta-nome, uso-form" type="text" placeholder="Qual o nome da ferramenta?">
+                <input id="qtd" name="qtd" class="ferramenta-qtd, uso-form" type="text" placeholder="Qtd.">
+                <input id="nomeUsuario" name="nomeUsuario" class="mecanico-nome, uso-form" type="text" placeholder="Quem vai usar essa ferramenta?">
+                <div class="buttons">
+                    <button type="submit" id="adicionar" class="botao-adicionar">Adicionar</button>
+                    <button class="botao-cancelar">Cancelar</button>
+                </div>
+
+            </form>
+            
+            
+            
+            <div class="concluido">
+                <img src="./assets/img/concluido.png" alt="concluido" class="concluido-img">
+                <p>Adicionado com sucesso</p>
+                <button class="botao-concluido">voltar</button>
+            </div>
+        </section>
+        <section id="ferramentas_em_uso" class="ferramentas_em_uso">
+            <div class="ferramentas_em_uso-titulo">
+                <h2>Ferramentas em uso</h2>
+            </div>
+            <table id="tabela_ferramentas">
+                <thead>
+                    <tr>
+                        <th>Ferramenta</th>
+                        <th>Qtd.</th>
+                        <th>Quem está usando?</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-corpo">
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="./assets/js/hide_show.js"></script>
+    <script src="./assets/js/table.js"></script>
+    <script src="./assets/js/muda_status.js"></script>
+</body>
+</html>

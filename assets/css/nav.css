@@ -1,0 +1,35 @@
+
+
+.ferramentaria_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3F3A3A;
+    padding-top: 1%;
+    height: 40px;
+}
+
+.itens{
+    list-style: none;
+    display: flex;
+    
+}
+
+.item{
+    margin-left: 32px;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.item-a{
+    text-decoration: none;
+    color:  #FF7166;
+    transition: .3s;
+    
+}
+
+.item-a:hover{
+    color: #f8f8f8;
+}
+
